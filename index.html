@@ -6,7 +6,7 @@
 <title>MS Garage | Bike Service and Repair in Vadakara</title>
 <meta name="description" content="MS Garage, Veeranchery, Vadakara. Bike service, repair and care for every brand. Book on WhatsApp.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,800;1,900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,800;1,900&family=Barlow:wght@400;500;600&family=Russo+One&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#07090d;--panel:#0f141b;--line:#1f2833;--ink:#f1f3f6;--mute:#98a3b0;--blue:#2f6bff;--red:#e5322d;--wa:#1faa59}
 *{box-sizing:border-box}
@@ -28,9 +28,10 @@ nav a:hover{color:var(--ink)}
 .dot{width:10px;height:10px;border-radius:50%;background:var(--mute)}
 .open .dot{background:#2ee66b;box-shadow:0 0 10px #2ee66b}
 .closed .dot{background:var(--red)}
-.hero h1{font-size:clamp(54px,12vw,132px);font-weight:900;margin:24px 0 18px;letter-spacing:-.02em}
+.hero h1{font-family:'Russo One',Archivo,Impact,sans-serif;font-style:normal;font-weight:400;font-size:clamp(30px,7.4vw,88px);margin:24px 0 18px;letter-spacing:.01em;line-height:1.02}
 .hero h1 .ms{color:var(--blue);text-shadow:0 0 28px rgba(47,107,255,.65)}
-.hero h1 .gar{display:block;color:var(--ink)}
+.hero h1 .gar{display:block;color:var(--ink);overflow-wrap:anywhere}
+.hero h1 .off{color:var(--red)}
 .tag{font:800 italic clamp(18px,3vw,26px) Archivo,sans-serif;color:var(--red);margin:0 0 18px}
 .hero p.lead{max-width:34em;color:var(--mute)}
 .btn{display:inline-flex;align-items:center;gap:10px;background:var(--wa);color:#fff;font:800 italic 17px Archivo,sans-serif;padding:15px 26px;border-radius:6px;text-decoration:none;border:0;cursor:pointer}
@@ -98,7 +99,7 @@ footer{border-top:1px solid var(--line);padding:30px 0 90px;color:var(--mute);fo
 <main>
 <div class="hero"><div class="wrap">
   <div class="status" id="status"><i class="dot"></i><span>Checking hours</span></div>
-  <h1><span class="ms">MS</span><span class="gar">GARAGE</span></h1>
+  <h1><span class="ms">MOTO</span><span class="gar">SURGEON<span class="off">_OFFICIAL</span></span></h1>
   <p class="tag">Ride hard. We keep you rolling.</p>
   <p class="lead">Because bikes deserve better care. Servicing, repairs and upgrades for every make, by mechanics who ride. Message us your bike and issue and we will tell you what it needs.</p>
   <div class="row">
